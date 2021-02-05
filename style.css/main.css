@@ -1,0 +1,188 @@
+
+:root{
+
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Elementos Base*/
+
+body{
+
+    background: var(--preta);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+header .container{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 15px;
+   
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    margin-left: 5px;
+}
+header nav i{
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav i:hover{
+    cursor: pointer;
+    color: white;
+}
+
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*Filme Principal*/
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0, .50),rgba(0,0,0, .50)100%), url(../imagens/cobraKai.jpg);
+
+    height: 400px;
+    background-size: cover;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.titulo{
+    margin-top: 10%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.botao{
+    background-color: rgba(0,0,0, .50);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 1.5s;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+
+.botao:hover{
+    background-color: rgb(189, 189, 189);
+    color: black;
+}
+ 
+
+.botao i{
+    padding-right: 5px;
+}
+
+.container{
+    margin-left: 15px;
+}
+
+.filme-principal .container{
+    width: 30%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.carrosel-filmes{
+    margin-top: 10px;
+}
+a{
+    color: white;
+}
+
+a:hover{
+    color: black;
+}
+
+.rodape{
+    text-align: center;
+    margin-top: 25px;
+    color: var(--vermelho);
+    margin-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+
+/* ----------------------Video e Informações-------------------------------------------------- */
+
+
+.videoTexto{
+    
+    padding-left: 15px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    text-indent: 50px;
+    
+}
+.texto h1{
+    color: var(--vermelho);
+}
+
+.linha{
+   width: 1200px;
+   margin: auto;
+   margin-bottom: 25px;
+}
+
+.elenco{
+    color: var(--vermelho);
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.nomesAtores{
+    text-align: center;
+    margin-top: 15px;
+}

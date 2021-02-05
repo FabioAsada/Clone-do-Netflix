@@ -1,0 +1,139 @@
+    
+@media screen and (max-width:700px){
+
+
+    header .container{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+
+
+
+    .botao{
+        margin-bottom: 5px;
+        width:300px;
+       
+    }
+
+    main .container{
+        margin-left: 25px;
+    }
+
+}
+
+@media screen and (max-width:600px){
+    
+
+    .filme-principal{
+        background: linear-gradient(rgba(0,0,0, .50),rgba(0,0,0, .50)100%), url(../imagens/cobraKai.jpg);
+        background-position: center;
+        background-size: cover;
+        padding-top: 230px;
+        
+    }
+
+    .descricao{
+        display: none;
+    }
+
+    .titulo{
+        font-size: 30px;
+        width: 200px;
+    }
+   
+}
+
+
+@media screen and (max-width:360px){
+    .inicio{
+        display: none;
+    }
+
+    .titulo{
+        width: 200px;
+        font-size: 20px;
+        margin-bottom: 5px;
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+    }
+  
+    .botao{
+        width: 200px;
+    }
+}
+
+
+/* -------------------------Video e Elenco---------------------- */
+
+@media screen and (max-width:1110px){
+  
+    .videoTexto{
+        display: flex;
+        flex-direction: column;
+  }
+
+  .texto{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .linha{
+      width: 800px;
+  }
+}
+
+
+@media screen and (max-width:800px){
+    .linha{
+        width: 600px;
+    }
+}
+
+@media screen and (max-width:585px){
+    .linha{
+        width: 400px;
+    }
+
+    iframe{
+        width: 400px;
+    }
+
+    .texto{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:410px){
+    .linha{
+        width: 300px;
+    }
+
+    iframe{
+        width: 300px;
+    }
+
+    .texto{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .linha{
+        width: 200px;
+    }
+
+    iframe{
+        width: 250px;
+    }
+
+    .texto{
+        width: 250px;
+        text-indent: 20px;
+        text-align: justify;
+    }
+}
+
+
