@@ -1,6 +1,4 @@
-# Recriando a Interface do Netflix
-
-## Projeto realizado com a orientação do professor __*Felipe Aguiar*__, da **Digital Innovation One**
+#  Recriando a Interface do Netflix
 
 - Utilizando HTML, CSS, jQuery e OwlCarousel2
 
