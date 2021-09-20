@@ -1,7 +1,7 @@
 #  Recriando a Interface do Netflix
 
 - Projeto criado e adaptado, a partir do maior serviço de streaming do mundo. Utilizando as tecnologias HTML, CSS, jQuery e OwlCarousel2, foi possível criar um site dinâmico e responsivo.
-
+- Atendendo tanto a Versão Web, como a Versão Mobile.
 
 ## Desktop
 
