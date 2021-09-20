@@ -1,6 +1,7 @@
 #  Recriando a Interface do Netflix
 
-- Utilizando HTML, CSS, jQuery e OwlCarousel2
+- Projeto criado e adaptado, a partir do maior serviço de streaming do mundo. Utilizando as tecnologias HTML, CSS, jQuery e OwlCarousel2, foi possível criar um site dinâmico e responsivo.
+
 
 ## Desktop
 
